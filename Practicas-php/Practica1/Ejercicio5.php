@@ -12,11 +12,11 @@
     $num1=5; 
     $num2=4;
 
-    echo "Suma ".$num1 + $num2."\n";
-    echo "Resta".$num1 - $num2."\n";
-    echo "Multiplica ".$num1 * $num2."\n";
-    echo "Divide ".$num1 / $num2."\n";
-    echo "Resto ".$num1 % $num2."\n";
+    echo "Suma ".$num1 + $num2."<br>";
+    echo "Resta".$num1 - $num2."<br>";
+    echo "Multiplica ".$num1 * $num2."<br>";
+    echo "Divide ".$num1 / $num2."<br>";
+    echo "Resto ".$num1 % $num2."<br>";
     echo "Potencia ".$num1 ** $num2;
 
     ?>

@@ -16,7 +16,6 @@
     var_dump($num);
     var_dump($numd);
     var_dump($texto);
-    
     ?>
     
 </body>

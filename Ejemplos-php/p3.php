@@ -6,17 +6,24 @@
     <title>Document</title>
 </head>
 <body>
-    
+
+    <pre>
         <?php
-            $entrada = array("a", "b", "c", "d", "e");
+            $entrada = array("a", "b", "c", "d", "e","f","g","hola","hay");
 
-            $salida = array_slice($entrada, 2);     
-            $salida = array_slice($entrada, -2, 1);  
+            /*$salida = array_slice($entrada, 2); 
+            print_r($salida);
+
+            $salida = array_slice($entrada, -2, 1); 
+            print_r($salida);
+
             $salida = array_slice($entrada, 0, 3);
+            print_r($salida);*/
 
-            print_r(array_slice($entrada, 2, -1));
+            print_r(array_slice($entrada, 2, -2));
             print_r(array_slice($entrada, 2, -1, true));
         ?>
-
+    </pre>
+    
 </body>
 </html>
