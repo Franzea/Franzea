@@ -6,15 +6,17 @@
 
     /* Ejercicio 1 */
 
-    if ($ent1 == "true" || $ent1 == "True" || $ent1 == "TRUE"){
+    if (strtolower($ent1) == "true"){
 
         echo "verdadero";
     }
+    else if (strtolower($ent1) == "false"){  
+            
+        echo "falso";          
+    }
     else{  
             
-        echo "falso o no es un valor de tipo boolean";          
+        echo "No es un valor de tipo boolean";          
     }
-
-    echo "<br>";
 
 ?>
